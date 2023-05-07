@@ -27,7 +27,6 @@ func main() {
 
 	urlArg := os.Args[1]
 	getReqUrl := baseUrl + urlArg
-
 	fmt.Println("Thus the URL ", getReqUrl)
 
 	response, err := http.Get(getReqUrl)
